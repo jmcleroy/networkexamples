@@ -13,3 +13,4 @@
       cisco.ios.ios_command:
         commands:
           - show ip route
+      set_fact: ip_routes
