@@ -1,1 +1,9 @@
-Test
+---
+- name: gather ios facts
+  hosts: all 
+  gather_facts: false 
+
+  tasks:
+    - name: gather ios facts
+      cisco.ios.ios_facts:
+      
