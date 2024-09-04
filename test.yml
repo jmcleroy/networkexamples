@@ -10,5 +10,6 @@
         gather_subset: all
 
     - name: gather routes
-      cisco.ios.ios_config:
-        command: show ip route
+      cisco.ios.ios_command:
+        commands:
+          - show ip route
